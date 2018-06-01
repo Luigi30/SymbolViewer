@@ -12,6 +12,9 @@
 		2A2AE7BF20C0E4FE00793A14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2AE7BD20C0E4FE00793A14 /* MainMenu.xib */; };
 		2A2AE7CB20C0E4FE00793A14 /* SymbolViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7CA20C0E4FE00793A14 /* SymbolViewerTests.swift */; };
 		2A2AE7D620C0E4FE00793A14 /* SymbolViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7D520C0E4FE00793A14 /* SymbolViewerUITests.swift */; };
+		2A2AE7E420C0E65200793A14 /* SymbolLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7E320C0E65200793A14 /* SymbolLoader.swift */; };
+		2A2AE7E720C0E6A500793A14 /* VlinkSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7E620C0E6A500793A14 /* VlinkSymbol.swift */; };
+		2A2AE7ED20C117AE00793A14 /* MainMenuWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE7EC20C117AE00793A14 /* MainMenuWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2A2AE7D120C0E4FE00793A14 /* SymbolViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2AE7D520C0E4FE00793A14 /* SymbolViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolViewerUITests.swift; sourceTree = "<group>"; };
 		2A2AE7D720C0E4FE00793A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2AE7E320C0E65200793A14 /* SymbolLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolLoader.swift; sourceTree = "<group>"; };
+		2A2AE7E620C0E6A500793A14 /* VlinkSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VlinkSymbol.swift; sourceTree = "<group>"; };
+		2A2AE7EC20C117AE00793A14 /* MainMenuWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				2A2AE7B920C0E4FD00793A14 /* AppDelegate.swift */,
 				2A2AE7BB20C0E4FE00793A14 /* Assets.xcassets */,
 				2A2AE7BD20C0E4FE00793A14 /* MainMenu.xib */,
+				2A2AE7EC20C117AE00793A14 /* MainMenuWindow.swift */,
+				2A2AE7E320C0E65200793A14 /* SymbolLoader.swift */,
+				2A2AE7E520C0E69600793A14 /* Instances */,
 				2A2AE7C020C0E4FE00793A14 /* Info.plist */,
 				2A2AE7C120C0E4FE00793A14 /* SymbolViewer.entitlements */,
 			);
@@ -119,6 +128,14 @@
 				2A2AE7D720C0E4FE00793A14 /* Info.plist */,
 			);
 			path = SymbolViewerUITests;
+			sourceTree = "<group>";
+		};
+		2A2AE7E520C0E69600793A14 /* Instances */ = {
+			isa = PBXGroup;
+			children = (
+				2A2AE7E620C0E6A500793A14 /* VlinkSymbol.swift */,
+			);
+			path = Instances;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2AE7E420C0E65200793A14 /* SymbolLoader.swift in Sources */,
+				2A2AE7ED20C117AE00793A14 /* MainMenuWindow.swift in Sources */,
 				2A2AE7BA20C0E4FD00793A14 /* AppDelegate.swift in Sources */,
+				2A2AE7E720C0E6A500793A14 /* VlinkSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
